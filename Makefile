@@ -6,7 +6,7 @@
 #    By: amyburgh <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/04/19 14:04:37 by amyburgh          #+#    #+#              #
-#    Updated: 2018/05/01 16:06:00 by amyburgh         ###   ########.fr        #
+#    Updated: 2018/05/01 16:20:35 by amyburgh         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,7 +28,7 @@ CC = gcc
 CFLAGS = -Wall -Werror -Wextra -j4
 RM = /bin/rm -f
 DEPS = libft.h
-SRC = $(LIBC) $(ADDITIONAL) $(BONUS) $(PERSONAL)
+SRC = $(LIBC) $(ADDITIONAL) $(BONUS) $(MY_FUNCTIONS)
 	  
 LIBC = ft_memset.c	ft_bzero.c	ft_memcpy.c	ft_memccpy.c	ft_memmove.c	ft_memchr.c	ft_memcmp.c	\
 	   ft_strlen.c	ft_strdup.c	ft_strcpy.c	ft_strncpy.c	ft_strcat.c	ft_strncat.c	ft_strlcat.c \
@@ -43,7 +43,7 @@ ADDITIONAL = ft_memalloc.c	ft_memdel.c	ft_strnew.c	ft_strdel.c	ft_strclr.c	ft_st
 	  
 BONUS =	  ft_lstnew.c	ft_lstdelone.c	ft_lstdel.c	ft_lstadd.c	ft_lstaddend.c	ft_lstiter.c	ft_lstmap.c \
 
-PERSONAL = ft_wordcount.c	ft_digitcount.c	ft_swap.c	ft_strrev.c	ft_strndup.c	#ft_lstsize.c	ft_lstclear.c \
+MY_FUNCTIONS = ft_wordcount.c	ft_digitcount.c	ft_swap.c	ft_strrev.c	ft_strndup.c \
 
 OBJ = $(SRC:.c=.o)
 

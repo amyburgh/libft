@@ -6,7 +6,7 @@
 /*   By: amyburgh <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/16 23:44:20 by amyburgh          #+#    #+#             */
-/*   Updated: 2018/05/01 16:07:42 by amyburgh         ###   ########.fr       */
+/*   Updated: 2018/05/01 16:21:03 by amyburgh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -134,6 +134,4 @@ size_t			ft_digitcount(long long n);
 void			ft_swap(int *a, int *b);
 char			*ft_strrev(char *str);
 char			*ft_strndup(const char *s, size_t n);
-//int				ft_lstsize(t_list *begin_list);
-//void			ft_lstclear(t_list **begin_list);
 #endif
