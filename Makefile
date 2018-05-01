@@ -6,7 +6,7 @@
 #    By: amyburgh <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/04/19 14:04:37 by amyburgh          #+#    #+#              #
-#    Updated: 2018/05/01 16:20:35 by amyburgh         ###   ########.fr        #
+#    Updated: 2018/05/01 16:24:56 by amyburgh         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,7 @@ CYAN = "\033[36m\c"
 
 NAME = libft.a
 CC = gcc
-CFLAGS = -Wall -Werror -Wextra -j4
+CFLAGS = -Wall -Werror -Wextra
 RM = /bin/rm -f
 DEPS = libft.h
 SRC = $(LIBC) $(ADDITIONAL) $(BONUS) $(MY_FUNCTIONS)
