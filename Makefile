@@ -6,7 +6,7 @@
 #    By: amyburgh <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/04/19 14:04:37 by amyburgh          #+#    #+#              #
-#    Updated: 2018/05/01 15:54:37 by amyburgh         ###   ########.fr        #
+#    Updated: 2018/05/01 15:59:36 by amyburgh         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,7 @@ CYAN = "\033[36m\c"
 
 NAME = libft.a
 CC = gcc
-CFLAGS = -Wall -Werror -Wextra
+CFLAGS = -Wall -Werror -Wextra -j4
 RM = /bin/rm -f
 DEPS = libft.h
 SRC = $(LIBC) $(ADDITIONAL) $(BONUS) $(PERSONAL)
@@ -43,13 +43,13 @@ ADDITIONAL = ft_memalloc.c	ft_memdel.c	ft_strnew.c	ft_strdel.c	ft_strclr.c	ft_st
 	  
 BONUS =	  ft_lstnew.c	ft_lstdelone.c	ft_lstdel.c	ft_lstadd.c	ft_lstaddend.c	ft_lstiter.c	ft_lstmap.c \
 
-PERSONAL = ft_wordcount.c	ft_digitcount.c	ft_swap.c	ft_strrev.c	ft_strndup.c	#ft_lstsize.c	ft_lstclear.c \
+PERSONAL = ft_wordcount.c	ft_digitcount.c	ft_swap.c	ft_strrev.c	ft_strndup.c	ft_lstsize.c	ft_lstclear.c \
 
 OBJ = $(SRC:.c=.o)
 
 %.o: %.c $(DEPS)
 		@echo $(GREEN)
-		$(CC) $(FLAGS) -g -c -o $@ $<
+		$(CC) $(FLAGS) -c -o $@ $<
 
 all: $(NAME)
 
