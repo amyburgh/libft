@@ -6,11 +6,11 @@
 /*   By: amyburgh <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/18 00:01:49 by amyburgh          #+#    #+#             */
-/*   Updated: 2018/05/24 19:16:49 by amyburgh         ###   ########.fr       */
+/*   Updated: 2018/06/21 20:35:50 by amyburgh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/macros.h"
+#include "macros.h"
 
 int	ft_isprint(int c)
 {

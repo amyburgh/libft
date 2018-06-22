@@ -6,11 +6,11 @@
 /*   By: amyburgh <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/17 15:41:20 by amyburgh          #+#    #+#             */
-/*   Updated: 2018/05/24 19:11:19 by amyburgh         ###   ########.fr       */
+/*   Updated: 2018/06/21 20:57:36 by amyburgh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {

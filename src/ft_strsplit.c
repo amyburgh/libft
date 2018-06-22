@@ -11,8 +11,8 @@
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include "../include/macros.h"
-#include "../include/libft.h"
+#include "macros.h"
+#include "libft.h"
 
 static size_t	ft_wordcount_mod(const char *s, char c)
 {

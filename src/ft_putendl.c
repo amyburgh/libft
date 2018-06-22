@@ -6,11 +6,11 @@
 /*   By: amyburgh <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/25 03:21:17 by amyburgh          #+#    #+#             */
-/*   Updated: 2018/05/24 19:25:44 by amyburgh         ###   ########.fr       */
+/*   Updated: 2018/06/21 20:51:59 by amyburgh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "libft.h"
 
 void	ft_putendl(char const *s)
 {

@@ -6,11 +6,11 @@
 /*   By: amyburgh <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/17 23:22:15 by amyburgh          #+#    #+#             */
-/*   Updated: 2018/05/24 19:13:40 by amyburgh         ###   ########.fr       */
+/*   Updated: 2018/06/21 20:22:20 by amyburgh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/macros.h"
+#include "macros.h"
 
 int	ft_atoi(const char *str)
 {

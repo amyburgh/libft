@@ -6,11 +6,11 @@
 /*   By: amyburgh <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/23 22:59:57 by amyburgh          #+#    #+#             */
-/*   Updated: 2018/05/24 19:17:51 by amyburgh         ###   ########.fr       */
+/*   Updated: 2018/06/21 20:55:25 by amyburgh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "libft.h"
 
 void	ft_strdel(char **as)
 {

@@ -6,12 +6,12 @@
 /*   By: amyburgh <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/25 03:11:36 by amyburgh          #+#    #+#             */
-/*   Updated: 2018/05/24 19:21:34 by amyburgh         ###   ########.fr       */
+/*   Updated: 2018/06/21 20:53:47 by amyburgh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include "../include/libft.h"
+#include "libft.h"
 
 void	ft_putstr(char const *s)
 {

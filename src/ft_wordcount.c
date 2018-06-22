@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include <stddef.h>
-#include "../include/macros.h"
+#include "macros.h"
 
 size_t	ft_wordcount(const char *s)
 {

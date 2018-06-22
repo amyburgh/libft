@@ -6,12 +6,12 @@
 /*   By: amyburgh <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/25 01:09:39 by amyburgh          #+#    #+#             */
-/*   Updated: 2018/05/24 19:27:48 by amyburgh         ###   ########.fr       */
+/*   Updated: 2018/06/21 20:36:29 by amyburgh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/macros.h"
-#include "../include/libft.h"
+#include "macros.h"
+#include "libft.h"
 
 char	*ft_itoa(int n)
 {

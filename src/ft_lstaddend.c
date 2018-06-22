@@ -6,11 +6,11 @@
 /*   By: amyburgh <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/26 18:06:27 by amyburgh          #+#    #+#             */
-/*   Updated: 2018/05/24 19:31:43 by amyburgh         ###   ########.fr       */
+/*   Updated: 2018/06/21 20:37:00 by amyburgh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "libft.h"
 
 void	ft_lstaddend(t_list **alst, t_list *new)
 {

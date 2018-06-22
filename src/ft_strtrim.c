@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
-#include "../include/macros.h"
+#include "libft.h"
+#include "macros.h"
 
 char	*ft_strtrim(char const *s)
 {

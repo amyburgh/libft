@@ -6,12 +6,12 @@
 /*   By: amyburgh <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/25 04:19:24 by amyburgh          #+#    #+#             */
-/*   Updated: 2018/05/24 19:26:26 by amyburgh         ###   ########.fr       */
+/*   Updated: 2018/06/21 20:53:31 by amyburgh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/macros.h"
-#include "../include/libft.h"
+#include "macros.h"
+#include "libft.h"
 
 void	ft_putnbr_fd(int n, int fd)
 {
