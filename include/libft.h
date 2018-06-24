@@ -6,7 +6,7 @@
 /*   By: amyburgh <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/16 23:44:20 by amyburgh          #+#    #+#             */
-/*   Updated: 2018/06/21 20:25:34 by amyburgh         ###   ########.fr       */
+/*   Updated: 2018/06/23 18:05:01 by amyburgh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define LIBFT_H
 
 # include <stddef.h>
+# include "get_next_line.h"
 
 /*
 ** ---------- Type defs ----------
